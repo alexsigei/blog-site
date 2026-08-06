@@ -7,7 +7,7 @@ import ArticleList from './components/ArticleList'
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header name={blog.name} />
 
       <About
@@ -15,7 +15,7 @@ function App() {
         about={blog.about}
       />
       <ArticleList posts={blog.posts}/>
-    </>
+    </div>
   )
 }
 
